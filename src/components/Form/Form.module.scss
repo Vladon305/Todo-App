@@ -1,0 +1,20 @@
+@import "../../App.module.scss";
+
+.form {
+  @apply flex;
+
+  .input {
+    @apply flex-1 p-4 rounded-2xl mr-4 text-xl placeholder:text-gray-500;
+    background-color: $darker;
+    color: $light;
+    &::placeholder {
+      color: #6b7280;
+    }
+  }
+
+  .button {
+    @apply text-xl rounded-lg p-1 transition-all delay-300 cursor-pointer hover:opacity-80 active:opacity-60;
+    color: $darker;
+    background-image: linear-gradient(to right, $pink, $purple);
+  }
+}
