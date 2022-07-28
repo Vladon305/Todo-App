@@ -17,7 +17,7 @@
     @apply flex-1 ml-2;
 
     .text {
-      @apply text-lg w-full block transition-all duration-500;
+      @apply text-xl w-full block transition-all duration-500;
       color: $light;
     }
   }
@@ -26,7 +26,7 @@
     @apply flex-1 ml-2 rounded-xl pl-1 bg-slate-700;
 
     .text {
-      @apply text-lg w-full block transition-all duration-500;
+      @apply text-xl w-full block transition-all duration-500;
       color: $light;
     }
   }
